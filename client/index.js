@@ -12,10 +12,10 @@ const getFlight = () => {
 }
 
 const populateTable = (flights) => {
-    for (const flight of flights) {}
+    for (const flight of flights) {
     const tableRow = document.createElement('tr')
     const tableIcon = document.createElement('td')
     tableIcon.textContent = "✈"
     tableRow.append(tableIcon)
-    tableBody.append(tableRow)
+    tableBody.append(tableRow)}
 }
